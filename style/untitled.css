@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+     
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    background: url('pic.avif') no-repeat;;
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255, 255,255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #090101;
+    border-radius: 10px;
+    padding: 40px 40px;
+}
+.form-box{
+    width: 100%;
+    height: 300px;
+    margin: 40px 0;
+}
+.form-box header{
+    font-size: 36px;
+    text-align: center;
+}
+
+.form-box form .input input{
+    width: 100%;
+    height: 200%;
+    background: transparent; 
+    border: none;
+    outline: none;
+    border: 2px solid rgba(9, 1, 1, 1);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #090101;
+    padding: 20px 45px 20px 20px;
+}
+.form-box i {
+    position: fixed;
+    right: 85px;
+    padding: 85px 5px 20px 20px;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+.btn{
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    margin: 20px -0px;
+}
+.btn:hover{
+    opacity: 0.82;
+}
+.submit{
+    width: 100%;
+}
+.links{
+    margin-bottom: 15px;
+}
+
+.nav{
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    line-height: 60px;
+    z-index: 100;
+}
+.logo{
+    font-size: 25px;
+    font-weight: 900;
+    
+}
+.logo a{
+    text-decoration: none;
+    color: #000;
+}
+.right-links a{
+    padding: 0 10px;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+.main-box{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+.main-box .top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.bottom{
+    width: 100%;
+    margin-top: 20px;
+}
+@media only screen and (max-width:840px){
+    .main-box .top{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .top .box{
+        margin: 10px 10px;
+    }
+    .bottom{
+        margin-top: 0;
+    }
+}
+.message{
+    text-align: center;
+    background: #f9eded;
+    padding: 15px 0px;
+    border:1px solid #699053;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: red;
+}
+
+
+
+
+
